@@ -8,6 +8,7 @@ metadata:
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: steeltoe
     tanzu.app.live.view.application.name: steeltoe-weatherforecast
+    apps.tanzu.vmware.com/has-tests: "true"
 spec:
   source:
     git:
