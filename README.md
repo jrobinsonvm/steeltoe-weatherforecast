@@ -7,6 +7,11 @@ This sample is based on the Weather Forecast RESTful API application made availa
 The application also includes several Steeltoe features: management endpoints, dynamic logging, and distributed tracing.
 
 The starting source for this sample was created using:
+
+```
+dotnet new --install Steeltoe.NetCoreTool.Templates
+```
+
 ```
 $ dotnet new steeltoe-webapi --logging-dynamic-logger --management-endpoints --distributed-tracing
 ```
