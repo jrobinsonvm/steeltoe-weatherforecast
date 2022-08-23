@@ -12,8 +12,10 @@ The starting source for this sample was created using:
 dotnet new --install Steeltoe.NetCoreTool.Templates
 ```
 
+and 
+
 ```
-$ dotnet new steeltoe-webapi --logging-dynamic-logger --management-endpoints --distributed-tracing
+dotnet new steeltoe-webapi --logging-dynamic-logger --management-endpoints --distributed-tracing
 ```
 
 ## Running the app locally
@@ -21,7 +23,7 @@ $ dotnet new steeltoe-webapi --logging-dynamic-logger --management-endpoints --d
 To run the sample application:
 
 ```
-$ dotnet run
+dotnet run
 ```
 
 For more details on Steeltoe endpoints, visit https://docs.steeltoe.io/.
